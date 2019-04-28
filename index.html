@@ -9,6 +9,10 @@
          //滚动显示动画
          var scrollview = function(parent) {
 				var ele = $(parent)[0];
+				
+				
+				
+				
 				var scrollTop = (document.documentElement.scrollTop || document.body.scrollTop) + (document.documentElement.clientHeight);
 				var evarop = getTop(ele) + ele.offsetHeight/5;
 				if(evarop < scrollTop) {
